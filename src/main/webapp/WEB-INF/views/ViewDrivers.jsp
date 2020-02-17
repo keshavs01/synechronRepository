@@ -30,6 +30,8 @@
 				<th>State</th>
 				<th>Contact No.</th>
 				<th>Email Id</th>
+				<th>Action</th>
+				<th>Action</th>
 				
 			</tr>
 		</thead>

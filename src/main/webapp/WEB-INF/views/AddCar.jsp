@@ -31,7 +31,10 @@
 			
 			<div class="form-group">
 				<label>Category</label>
-				<form:input type="text" path="category" class="form-control" />
+				<form:select path = "category">
+                     <form:option value = "NONE" label = "Select"/>
+                     <form:options items = "${categoryList}" />
+                  </form:select>  
 			</div>
 			
 			<div class="form-group">

@@ -7,9 +7,9 @@
 <title>Rental Car - User Home Page</title>
 </head>
 <body>
-<a href = "viewCars">View All Cars</a>
-<a href = "viewDrivers">View All Drivers</a>
-<a href = "viewCarByCategory">View Cars by Category</a>
-<a href = "viewDriverByRating">View Driver by Rating</a>
+<a href = "viewAndBookCar">View and Book Cars</a><br>
+<a href = "viewAndBookDriver">View and Book Drivers</a><br>
+<a href = "viewCarByCategory">View Cars by Category</a><br>
+<a href = "viewDriverByRating">View Driver by Rating</a><br>
 </body>
 </html>

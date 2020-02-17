@@ -102,5 +102,15 @@ public class AdminController {
 		driverService.deleteDriverById(driverId);
 		return viewAllDrivers(model); // we just called the view drivers method
 	}
+	
+	@ModelAttribute("categoryList")
+	   public List<String> getCategoryList() {
+	      List<String> categoryList = new ArrayList<String>();
+	      categoryList.add("sedan");
+	      categoryList.add("hatchback");
+	      categoryList.add("SUV");
+	      categoryList.add("crossover");
+	      return categoryList;
+	   }
 
 }
